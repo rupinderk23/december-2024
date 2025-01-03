@@ -775,4 +775,11 @@ footer .ftrmnu li span {
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
   }
+}
+
+.stats2 {
+  background-color: rgba(243, 148, 84, 0.1882352941);
+}
+.stats2 .into2 {
+  background-color: #f39454 !important;
 }/*# sourceMappingURL=style.css.map */
