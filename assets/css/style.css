@@ -134,14 +134,14 @@ header h3 {
   background-color: #f39454;
   color: #fff;
   font-family: "Poppins", serif;
-  border-radius: 20px;
+  border-radius: 12px;
   padding: 1rem 1.5rem;
   font-size: 1.8rem;
   position: relative;
 }
 @media (max-width: 767px) {
   .into {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 0.8rem 1.2rem;
   }
 }
@@ -611,14 +611,14 @@ footer .ftrmnu li span {
   max-width: 90%;
   margin: auto;
   border-radius: 30px;
-  padding: 30px;
+  padding: 20px;
 }
 .yearly-stats .into {
   background-color: #f07777 !important;
 }
 @media (max-width: 767px) {
   .yearly-stats {
-    padding: 16px;
+    padding: 10px;
   }
 }
 .yearly-stats .stat-box img {
@@ -626,7 +626,7 @@ footer .ftrmnu li span {
 }
 @media (max-width: 767px) {
   .yearly-stats .stat-box img {
-    width: 80px;
+    width: 90px;
   }
 }
 .yearly-stats .stat-box .y-stat-number {
@@ -667,28 +667,41 @@ footer .ftrmnu li span {
   background-color: #f39454;
 }
 .artists-wrapper .most-booked-number {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 @media (max-width: 768px) {
   .artists-wrapper .most-booked-number {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
   }
 }
 .artists-wrapper .most-booked-number span {
-  background-color: #f39454;
-  border-radius: 10px;
-  color: white;
-  padding: 0.5rem 1rem;
+  position: relative;
+  color: #212529;
+}
+.artists-wrapper .most-booked-number span::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 12px;
+  background-color: rgba(243, 148, 84, 0.662745098);
+  bottom: 1px;
+  left: 0;
+  z-index: -1;
+}
+@media (max-width: 767px) {
+  .artists-wrapper .most-booked-number span::after {
+    height: 10px;
+  }
 }
 .artists-wrapper .most-booked-title {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   .artists-wrapper .most-booked-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 }
@@ -717,4 +730,49 @@ footer .ftrmnu li span {
 }
 .artists-wrapper .img-collage img {
   width: 100%;
+}
+
+.into1, .into3 {
+  font-size: 2.2rem;
+  position: relative;
+  color: #f07777;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .into1, .into3 {
+    font-size: 1.3rem;
+  }
+}
+
+.into2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.into3 {
+  color: #f39454;
+}
+
+.main-event-img1 {
+  border: 4px solid #f39454;
+  background-color: #f39454;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.main-event-img1 p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 767px) {
+  .main-event-img1 p {
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
 }/*# sourceMappingURL=style.css.map */
