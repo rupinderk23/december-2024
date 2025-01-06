@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Young+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins&family=Young+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=Julee&family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
 .pt-30 {
   padding-top: 30px;
 }
@@ -680,7 +681,7 @@ footer .ftrmnu li span {
 }
 .artists-wrapper .most-booked-number span {
   position: relative;
-  color: #212529;
+  color: #000000;
 }
 .artists-wrapper .most-booked-number span::after {
   position: absolute;
@@ -801,9 +802,12 @@ footer .ftrmnu li span {
 }
 .yearly-stats-highlighted1 .into {
   background: linear-gradient(to right, #f3c4e8, #f7b1a0) !important;
+  font-family: "DM Serif Text", serif;
 }
 .yearly-stats-highlighted1 .into1, .yearly-stats-highlighted1 .into3 {
   color: black;
+  font-family: "DM Serif Text", serif;
+  font-weight: 500;
 }
 
 .yearly-stats-highlighted2 {
@@ -827,9 +831,12 @@ footer .ftrmnu li span {
 }
 .yearly-stats-highlighted3 .into {
   background: linear-gradient(to right, #b8f2ce, #b3dde0) !important;
+  font-family: "DM Serif Text", serif;
 }
 .yearly-stats-highlighted3 .into1, .yearly-stats-highlighted3 .into3 {
   color: black;
+  font-family: "DM Serif Text", serif;
+  font-weight: 500;
 }
 
 .yearly-stats-highlighted4 {
@@ -841,4 +848,22 @@ footer .ftrmnu li span {
 }
 .yearly-stats-highlighted4 .into1, .yearly-stats-highlighted4 .into3 {
   color: black;
+}
+
+.artists-wrapper-new .main-event-section {
+  background-color: #e6eaff;
+  -o-border-image: linear-gradient(to right, #dbd9ff 0%, #edb7e9 100%) 1 !important;
+     border-image: linear-gradient(to right, #dbd9ff 0%, #edb7e9 100%) 1 !important;
+  border-radius: 5px !important; /* this doesn't work */
+  border-width: 4px !important;
+  border-style: solid !important;
+}
+.artists-wrapper-new .main-event-img1 {
+  border-color: #d19df3;
+  background-color: #baa7ff;
+}
+.artists-wrapper-new .most-booked-number {
+  font-family: "DM Serif Text", serif;
+  font-weight: 600;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=style.css.map */

@@ -599,7 +599,7 @@ footer{
             // color: white;
             // padding: 0.3rem 0.8rem;
             position: relative;
-            color: #212529;
+            color: #000000;
             &::after{
                 position: absolute;
                 content: '';
@@ -705,9 +705,12 @@ footer{
     border-style: solid;
     .into{
         background: linear-gradient(to right, #f3c4e8 , #f7b1a0 ) !important;
+        font-family: $third-font;
     }
     .into1{
         color: black;
+        font-family: $third-font;
+        font-weight: 500;
     }
 }
 .yearly-stats-highlighted2{
@@ -728,9 +731,12 @@ footer{
     border-style: solid;
     .into{
         background: linear-gradient(to right, #b8f2ce, #b3dde0) !important;
+        font-family: $third-font;
     }
     .into1{
         color: black;
+        font-family: $third-font;
+        font-weight: 500;
     }
 }
 .yearly-stats-highlighted4{
@@ -741,5 +747,23 @@ footer{
     }
     .into1{
         color: black;
+    }
+}
+.artists-wrapper-new{
+    .main-event-section{
+        background-color: #e6eaff;
+        border-image: linear-gradient(to right, #dbd9ff 0%, #edb7e9 100%) 1 !important;
+        border-radius: 5px !important; /* this doesn't work */
+        border-width: 4px !important;
+        border-style: solid !important;
+    }
+    .main-event-img1{
+        border-color: #d19df3;
+        background-color: #baa7ff;
+    }
+    .most-booked-number{
+        font-family: $third-font;
+        font-weight: 600;
+        letter-spacing: 2px;
     }
 }
