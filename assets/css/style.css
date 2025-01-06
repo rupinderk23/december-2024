@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins&family=Young+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=Julee&family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 .pt-30 {
   padding-top: 30px;
 }
@@ -671,7 +672,9 @@ footer .ftrmnu li span {
 }
 .artists-wrapper .most-booked-number {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-family: "Berkshire Swash", serif;
+  letter-spacing: 1px;
+  color: #000000;
 }
 @media (max-width: 768px) {
   .artists-wrapper .most-booked-number {
@@ -833,11 +836,13 @@ footer .ftrmnu li span {
 }
 .yearly-stats-highlighted1 .into {
   background: linear-gradient(to right, #f3c4e8, #f7b1a0) !important;
-  font-family: "DM Serif Text", serif;
+  font-family: "Berkshire Swash", serif;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 .yearly-stats-highlighted1 .into1, .yearly-stats-highlighted1 .into3 {
   color: black;
-  font-family: "DM Serif Text", serif;
+  font-family: "Berkshire Swash", serif;
   font-weight: 500;
 }
 
@@ -847,9 +852,14 @@ footer .ftrmnu li span {
 }
 .yearly-stats-highlighted2 .into {
   background-color: #acd4fa !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Berkshire Swash", serif;
 }
 .yearly-stats-highlighted2 .into1, .yearly-stats-highlighted2 .into3 {
   color: black;
+  font-family: "Berkshire Swash", serif;
+  font-weight: 600;
 }
 
 .yearly-stats-highlighted3 {
@@ -859,14 +869,40 @@ footer .ftrmnu li span {
   border-radius: 5px; /* this doesn't work */
   border-width: 4px;
   border-style: solid;
+  position: relative;
+}
+.yearly-stats-highlighted3::before {
+  content: url("../images/elements/christmas-stars.png");
+  position: absolute;
+  right: -40px;
+  top: -28px;
+}
+@media (max-width: 767px) {
+  .yearly-stats-highlighted3::before {
+    right: 0;
+  }
+}
+.yearly-stats-highlighted3::after {
+  content: url("../images/elements/christmas-stars.png");
+  position: absolute;
+  left: -30px;
+  bottom: -48px;
+}
+@media (max-width: 767px) {
+  .yearly-stats-highlighted3::after {
+    left: 0;
+  }
 }
 .yearly-stats-highlighted3 .into {
   background: linear-gradient(to right, #b8f2ce, #b3dde0) !important;
-  font-family: "DM Serif Text", serif;
+  font-family: "Berkshire Swash", serif;
+  box-shadow: 0 0px 6px #209b9b;
+  border: 1px solid #a4c8c8;
+  line-height: 1.2;
 }
 .yearly-stats-highlighted3 .into1, .yearly-stats-highlighted3 .into3 {
   color: black;
-  font-family: "DM Serif Text", serif;
+  font-family: "Berkshire Swash", serif;
   font-weight: 500;
 }
 
@@ -876,25 +912,35 @@ footer .ftrmnu li span {
 }
 .yearly-stats-highlighted4 .into {
   background-color: #c9dba8 !important;
+  font-family: "Berkshire Swash", serif;
+  line-height: 1.2;
+  box-shadow: 0 0px 10px #3b5807;
+  border: 1px solid #c9dba8;
 }
 .yearly-stats-highlighted4 .into1, .yearly-stats-highlighted4 .into3 {
   color: black;
+  font-family: "Berkshire Swash", serif;
 }
 
 .artists-wrapper-new .main-event-section {
-  background-color: #e6eaff;
-  -o-border-image: linear-gradient(to right, #dbd9ff 0%, #edb7e9 100%) 1 !important;
-     border-image: linear-gradient(to right, #dbd9ff 0%, #edb7e9 100%) 1 !important;
-  border-radius: 5px !important; /* this doesn't work */
+  background-color: #ebfbf6;
+  -o-border-image: linear-gradient(to right, #b8f2ce 0%, #b3dde0 100%) 1 !important;
+     border-image: linear-gradient(to right, #b8f2ce 0%, #b3dde0 100%) 1 !important;
+  border-radius: 5px; /* this doesn't work */
   border-width: 4px !important;
   border-style: solid !important;
 }
 .artists-wrapper-new .main-event-img1 {
-  border-color: #d19df3;
-  background-color: #baa7ff;
+  border-color: #b8f2ce;
+  background-color: #b8f2ce;
 }
 .artists-wrapper-new .most-booked-number {
-  font-family: "DM Serif Text", serif;
-  font-weight: 600;
-  letter-spacing: 2px;
+  font-family: "Berkshire Swash", serif;
+}
+.artists-wrapper-new .name-wrapper p {
+  color: black !important;
+}
+
+.main-divider img {
+  max-width: 800px;
 }/*# sourceMappingURL=style.css.map */

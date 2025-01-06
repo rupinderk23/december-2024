@@ -588,7 +588,9 @@ footer{
     }
     .most-booked-number{
         font-size: 1.8rem;
-        font-weight: 700;
+        font-family: $third-font;
+        letter-spacing: 1px;
+        color: #000000;
         @media (max-width: 768px) {
             font-size: 1.3rem;
             text-align: center;
@@ -733,6 +735,8 @@ footer{
     .into{
         background: linear-gradient(to right, #f3c4e8 , #f7b1a0 ) !important;
         font-family: $third-font;
+        font-weight: 600;
+        letter-spacing: 1px;
     }
     .into1{
         color: black;
@@ -745,9 +749,14 @@ footer{
     border: 4px solid #acd4fa;
     .into{
         background-color: #acd4fa !important;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-family: $third-font;
     }
     .into1{
         color: black;
+        font-family: $third-font;
+        font-weight: 600;
     }
 }
 .yearly-stats-highlighted3{
@@ -756,9 +765,31 @@ footer{
     border-radius: 5px; /* this doesn't work */
     border-width: 4px;
     border-style: solid;
+    position: relative;
+    &::before{
+        content: url('../images/elements/christmas-stars.png');
+        position: absolute;
+        right: -40px;
+        top: -28px;
+        @media (max-width: 767px) {
+            right: 0;
+        }
+    }
+    &::after{
+        content: url('../images/elements/christmas-stars.png');
+        position: absolute;
+        left: -30px;
+        bottom: -48px;
+        @media (max-width: 767px) {
+            left: 0;
+        }
+    }
     .into{
         background: linear-gradient(to right, #b8f2ce, #b3dde0) !important;
         font-family: $third-font;
+        box-shadow: 0 0px 6px #209b9b;
+        border: 1px solid #a4c8c8;
+        line-height: 1.2;
     }
     .into1{
         color: black;
@@ -771,26 +802,39 @@ footer{
     border: 4px solid #c9dba8;
     .into{
         background-color: #c9dba8 !important;
+        font-family: $third-font;
+        line-height: 1.2;
+        box-shadow: 0 0px 10px #3b5807;
+        border: 1px solid #c9dba8;
     }
     .into1{
         color: black;
+        font-family: $third-font;
     }
 }
 .artists-wrapper-new{
     .main-event-section{
-        background-color: #e6eaff;
-        border-image: linear-gradient(to right, #dbd9ff 0%, #edb7e9 100%) 1 !important;
-        border-radius: 5px !important; /* this doesn't work */
+        background-color: #ebfbf6;
+        border-image: linear-gradient(to right, #b8f2ce 0%, #b3dde0 100%) 1 !important;
+        border-radius: 5px; /* this doesn't work */
         border-width: 4px !important;
         border-style: solid !important;
     }
     .main-event-img1{
-        border-color: #d19df3;
-        background-color: #baa7ff;
+        border-color: #b8f2ce;
+        background-color: #b8f2ce;
     }
     .most-booked-number{
         font-family: $third-font;
-        font-weight: 600;
-        letter-spacing: 2px;
+    }
+    .name-wrapper{
+        p{
+            color: black !important;
+        }
+    }
+}
+.main-divider{
+    img{
+        max-width: 800px;
     }
 }
