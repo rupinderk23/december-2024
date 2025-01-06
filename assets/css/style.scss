@@ -108,11 +108,12 @@ header{
 }
 .into{
     background-color: $second-color;
-    color: #fff;
+    color: #000000;
     font-family: $heading-font;
     border-radius: 12px;
     padding: 1rem 1.5rem;
     font-size: 1.8rem;
+    font-weight: 500;
     position: relative;
     @media (max-width: 767px) {
         font-size: 1.2rem;
@@ -538,6 +539,7 @@ footer{
     }
     @media (max-width: 767px) {
         padding: 10px;
+        max-width: 100%;
     }
     .stat-box{
         img{
@@ -672,6 +674,9 @@ footer{
     background-color: $second-color;
     border-radius: 20px;
     overflow: hidden;
+    @media (max-width: 767px) {
+        border: 2px solid $second-color;
+    }
     p{
         text-align: center;
         font-size: 1.5rem;
@@ -679,7 +684,7 @@ footer{
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         @media (max-width: 767px) {
-            font-size: 1.2rem;
+            font-size: 1rem;
             margin-top: 0.4rem;
             margin-bottom: 0.4rem;
         }
@@ -689,5 +694,52 @@ footer{
     background-color: #f3945430;
     .into2{
         background-color: $second-color !important;
+    }
+}
+
+.yearly-stats-highlighted1{
+    background-color: #f077ec26;
+    border-image: linear-gradient(to right, #f3c4e8 0%, #f7b1a0 100%) 1;
+    border-radius: 5px; /* this doesn't work */
+    border-width: 4px;
+    border-style: solid;
+    .into{
+        background: linear-gradient(to right, #f3c4e8 , #f7b1a0 ) !important;
+    }
+    .into1{
+        color: black;
+    }
+}
+.yearly-stats-highlighted2{
+    background-color: #77b6f026;
+    border: 4px solid #acd4fa;
+    .into{
+        background-color: #acd4fa !important;
+    }
+    .into1{
+        color: black;
+    }
+}
+.yearly-stats-highlighted3{
+    background-color: #ebfbf6;
+    border-image: linear-gradient(to right, #b8f2ce 0%, #b3dde0 100%) 1;
+    border-radius: 5px; /* this doesn't work */
+    border-width: 4px;
+    border-style: solid;
+    .into{
+        background: linear-gradient(to right, #b8f2ce, #b3dde0) !important;
+    }
+    .into1{
+        color: black;
+    }
+}
+.yearly-stats-highlighted4{
+    background-color: rgb(168 240 119 / 15%);
+    border: 4px solid #c9dba8;
+    .into{
+        background-color: #c9dba8 !important;
+    }
+    .into1{
+        color: black;
     }
 }
