@@ -703,6 +703,33 @@ footer{
     border-radius: 5px; /* this doesn't work */
     border-width: 4px;
     border-style: solid;
+    position: relative;
+    .corner1{
+        width: 100px;
+        height: 100px;
+        border-top: 4px solid #f7b1a0;
+        border-right: 4px solid #f7b1a0;
+        position: absolute;
+        top: -12px;
+        right: -12px;
+        @media (max-width: 767px) {
+            width: 70px;
+            height: 70px;
+        }
+    }
+    .corner2{
+        width: 100px;
+        height: 100px;
+        border-bottom: 4px solid #f3c4e8;
+        border-left: 4px solid #f3c4e8;
+        position: absolute;
+        bottom: -12px;
+        left: -12px;
+        @media (max-width: 767px) {
+            width: 70px;
+            height: 70px;
+        }
+    }
     .into{
         background: linear-gradient(to right, #f3c4e8 , #f7b1a0 ) !important;
         font-family: $third-font;
