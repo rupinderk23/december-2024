@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Julee&family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@font-face {
+    font-family: 'princes';
+    src: url(../font/Princess-frog.ttf);
+}
 
 
 $mainheading-font: 'Croissant One', cursive;
@@ -12,6 +16,7 @@ $body-font: 'Nunito Sans', sans-serif;
 $style-font: 'Kaushan Script', cursive;
 $third-font: "Berkshire Swash", serif;
 // $heading-font: 'Kanit', sans-serif;
+$princes-font: 'princes', 'serif';
 
 $yellow-color: #ec9e43;
 $brand-yellow: #ffc107;

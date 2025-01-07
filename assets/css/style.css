@@ -4,6 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=Julee&family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@font-face {
+  font-family: "princes";
+  src: url(../font/Princess-frog.ttf);
+}
 .pt-30 {
   padding-top: 30px;
 }
