@@ -673,7 +673,7 @@ footer .ftrmnu li span {
 .artists-wrapper .most-booked-number {
   font-size: 1.8rem;
   font-family: "Berkshire Swash", serif;
-  letter-spacing: 1px;
+  line-height: 1.2;
   color: #000000;
 }
 @media (max-width: 768px) {
@@ -765,7 +765,7 @@ footer .ftrmnu li span {
 .main-event-img1 {
   border: 4px solid #f39454;
   background-color: #f39454;
-  border-radius: 20px;
+  border-radius: 10px;
   overflow: hidden;
 }
 @media (max-width: 767px) {
@@ -922,13 +922,12 @@ footer .ftrmnu li span {
   font-family: "Berkshire Swash", serif;
 }
 
+.artists-wrapper-new {
+  border-radius: 30px;
+}
 .artists-wrapper-new .main-event-section {
   background-color: #ebfbf6;
-  -o-border-image: linear-gradient(to right, #b8f2ce 0%, #b3dde0 100%) 1 !important;
-     border-image: linear-gradient(to right, #b8f2ce 0%, #b3dde0 100%) 1 !important;
-  border-radius: 5px; /* this doesn't work */
-  border-width: 4px !important;
-  border-style: solid !important;
+  border: 4px solid #b8f2ce !important;
 }
 .artists-wrapper-new .main-event-img1 {
   border-color: #b8f2ce;
@@ -938,6 +937,21 @@ footer .ftrmnu li span {
   font-family: "Berkshire Swash", serif;
 }
 .artists-wrapper-new .name-wrapper p {
+  color: black !important;
+}
+
+.artists-wrapper-new2 .main-event-section {
+  background-color: rgba(168, 240, 119, 0.15);
+  border: 4px solid #c9dba8 !important;
+}
+.artists-wrapper-new2 .main-event-img1 {
+  border-color: #c9dba8;
+  background-color: #c9dba8;
+}
+.artists-wrapper-new2 .most-booked-number {
+  font-family: "Berkshire Swash", serif;
+}
+.artists-wrapper-new2 .name-wrapper p {
   color: black !important;
 }
 

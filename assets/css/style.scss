@@ -583,13 +583,16 @@ footer{
     }
 }
 .artists-wrapper{
+    // .main-event-section{
+    //     border-radius: 30px;
+    // }
     .into{
         background-color: $second-color;
     }
     .most-booked-number{
         font-size: 1.8rem;
         font-family: $third-font;
-        letter-spacing: 1px;
+        line-height: 1.2;
         color: #000000;
         @media (max-width: 768px) {
             font-size: 1.3rem;
@@ -674,7 +677,7 @@ footer{
 .main-event-img1{
     border: 4px solid $second-color;
     background-color: $second-color;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     @media (max-width: 767px) {
         border: 2px solid $second-color;
@@ -813,16 +816,32 @@ footer{
     }
 }
 .artists-wrapper-new{
+    border-radius: 30px;
     .main-event-section{
         background-color: #ebfbf6;
-        border-image: linear-gradient(to right, #b8f2ce 0%, #b3dde0 100%) 1 !important;
-        border-radius: 5px; /* this doesn't work */
-        border-width: 4px !important;
-        border-style: solid !important;
+        border: 4px solid #b8f2ce !important;
     }
     .main-event-img1{
         border-color: #b8f2ce;
         background-color: #b8f2ce;
+    }
+    .most-booked-number{
+        font-family: $third-font;
+    }
+    .name-wrapper{
+        p{
+            color: black !important;
+        }
+    }
+}
+.artists-wrapper-new2{
+    .main-event-section{
+        background-color: rgb(168 240 119 / 15%);
+        border: 4px solid #c9dba8 !important;
+    }
+    .main-event-img1{
+        border-color: #c9dba8;
+        background-color: #c9dba8;
     }
     .most-booked-number{
         font-family: $third-font;
