@@ -920,13 +920,12 @@ footer .ftrmnu li span {
   line-height: 1.2;
   box-shadow: 0 0px 10px #3b5807;
   border: 1px solid #c9dba8;
-  font-weight: bold;
   font-size: 1.9rem !important;
   text-transform: uppercase;
 }
 @media (max-width: 767px) {
   .yearly-stats-highlighted4 .into {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
   }
 }
 .yearly-stats-highlighted4 .into1, .yearly-stats-highlighted4 .into3 {
