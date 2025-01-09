@@ -590,12 +590,12 @@ footer{
         background-color: $second-color;
     }
     .most-booked-number{
-        font-size: 1.8rem;
-        font-family: $third-font;
+        font-size: 1.9rem;
+        font-family: $gilroy-font;
         line-height: 1.2;
         color: #000000;
         @media (max-width: 768px) {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             text-align: center;
         }
         span{
@@ -737,13 +737,13 @@ footer{
     }
     .into{
         background: linear-gradient(to right, #f3c4e8 , #f7b1a0 ) !important;
-        font-family: $third-font;
+        font-family: $gilroy-font;
         font-weight: 600;
         letter-spacing: 1px;
     }
     .into1{
         color: black;
-        font-family: $third-font;
+        font-family: $gilroy-font;
         font-weight: 500;
     }
 }
@@ -754,11 +754,11 @@ footer{
         background-color: #acd4fa !important;
         font-weight: 600;
         letter-spacing: 1px;
-        font-family: $third-font;
+        font-family: $gilroy-font;
     }
     .into1{
         color: black;
-        font-family: $third-font;
+        font-family: $gilroy-font;
         font-weight: 600;
     }
 }
@@ -789,14 +789,14 @@ footer{
     }
     .into{
         background: linear-gradient(to right, #b8f2ce, #b3dde0) !important;
-        font-family: $third-font;
+        font-family: $gilroy-font;
         box-shadow: 0 0px 6px #209b9b;
         border: 1px solid #a4c8c8;
         line-height: 1.2;
     }
     .into1{
         color: black;
-        font-family: $third-font;
+        font-family: $gilroy-font;
         font-weight: 500;
     }
 }
@@ -805,14 +805,20 @@ footer{
     border: 4px solid #c9dba8;
     .into{
         background-color: #c9dba8 !important;
-        font-family: $third-font;
+        font-family: $gilroy-font;
         line-height: 1.2;
         box-shadow: 0 0px 10px #3b5807;
         border: 1px solid #c9dba8;
+        font-weight: bold;
+        font-size: 1.9rem !important;
+        text-transform: uppercase;
+        @media (max-width: 767px) {
+            font-size: 1.3rem !important;
+        }
     }
     .into1{
         color: black;
-        font-family: $third-font;
+        font-family: $gilroy-font;
     }
 }
 .artists-wrapper-new{
@@ -826,7 +832,7 @@ footer{
         background-color: #b8f2ce;
     }
     .most-booked-number{
-        font-family: $third-font;
+        font-family: $gilroy-font;
     }
     .name-wrapper{
         p{
@@ -844,7 +850,7 @@ footer{
         background-color: #c9dba8;
     }
     .most-booked-number{
-        font-family: $third-font;
+        font-family: $gilroy-font;
     }
     .name-wrapper{
         p{

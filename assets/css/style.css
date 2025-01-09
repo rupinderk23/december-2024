@@ -5,8 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @font-face {
-  font-family: "princes";
-  src: url(../font/Princess-frog.ttf);
+  font-family: "gilroy";
+  src: url(../font/gilroy.ttf);
 }
 .pt-30 {
   padding-top: 30px;
@@ -675,14 +675,14 @@ footer .ftrmnu li span {
   background-color: #f39454;
 }
 .artists-wrapper .most-booked-number {
-  font-size: 1.8rem;
-  font-family: "Berkshire Swash", serif;
+  font-size: 1.9rem;
+  font-family: "gilroy", "serif";
   line-height: 1.2;
   color: #000000;
 }
 @media (max-width: 768px) {
   .artists-wrapper .most-booked-number {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
   }
 }
@@ -840,13 +840,13 @@ footer .ftrmnu li span {
 }
 .yearly-stats-highlighted1 .into {
   background: linear-gradient(to right, #f3c4e8, #f7b1a0) !important;
-  font-family: "Berkshire Swash", serif;
+  font-family: "gilroy", "serif";
   font-weight: 600;
   letter-spacing: 1px;
 }
 .yearly-stats-highlighted1 .into1, .yearly-stats-highlighted1 .into3 {
   color: black;
-  font-family: "Berkshire Swash", serif;
+  font-family: "gilroy", "serif";
   font-weight: 500;
 }
 
@@ -858,11 +858,11 @@ footer .ftrmnu li span {
   background-color: #acd4fa !important;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: "Berkshire Swash", serif;
+  font-family: "gilroy", "serif";
 }
 .yearly-stats-highlighted2 .into1, .yearly-stats-highlighted2 .into3 {
   color: black;
-  font-family: "Berkshire Swash", serif;
+  font-family: "gilroy", "serif";
   font-weight: 600;
 }
 
@@ -899,14 +899,14 @@ footer .ftrmnu li span {
 }
 .yearly-stats-highlighted3 .into {
   background: linear-gradient(to right, #b8f2ce, #b3dde0) !important;
-  font-family: "Berkshire Swash", serif;
+  font-family: "gilroy", "serif";
   box-shadow: 0 0px 6px #209b9b;
   border: 1px solid #a4c8c8;
   line-height: 1.2;
 }
 .yearly-stats-highlighted3 .into1, .yearly-stats-highlighted3 .into3 {
   color: black;
-  font-family: "Berkshire Swash", serif;
+  font-family: "gilroy", "serif";
   font-weight: 500;
 }
 
@@ -916,14 +916,22 @@ footer .ftrmnu li span {
 }
 .yearly-stats-highlighted4 .into {
   background-color: #c9dba8 !important;
-  font-family: "Berkshire Swash", serif;
+  font-family: "gilroy", "serif";
   line-height: 1.2;
   box-shadow: 0 0px 10px #3b5807;
   border: 1px solid #c9dba8;
+  font-weight: bold;
+  font-size: 1.9rem !important;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .yearly-stats-highlighted4 .into {
+    font-size: 1.3rem !important;
+  }
 }
 .yearly-stats-highlighted4 .into1, .yearly-stats-highlighted4 .into3 {
   color: black;
-  font-family: "Berkshire Swash", serif;
+  font-family: "gilroy", "serif";
 }
 
 .artists-wrapper-new {
@@ -938,7 +946,7 @@ footer .ftrmnu li span {
   background-color: #b8f2ce;
 }
 .artists-wrapper-new .most-booked-number {
-  font-family: "Berkshire Swash", serif;
+  font-family: "gilroy", "serif";
 }
 .artists-wrapper-new .name-wrapper p {
   color: black !important;
@@ -953,7 +961,7 @@ footer .ftrmnu li span {
   background-color: #c9dba8;
 }
 .artists-wrapper-new2 .most-booked-number {
-  font-family: "Berkshire Swash", serif;
+  font-family: "gilroy", "serif";
 }
 .artists-wrapper-new2 .name-wrapper p {
   color: black !important;
