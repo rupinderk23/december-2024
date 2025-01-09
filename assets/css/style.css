@@ -630,11 +630,11 @@ footer .ftrmnu li span {
   }
 }
 .yearly-stats .stat-box img {
-  width: 110px;
+  width: 170px;
 }
 @media (max-width: 767px) {
   .yearly-stats .stat-box img {
-    width: 90px;
+    width: 130px;
   }
 }
 .yearly-stats .stat-box .y-stat-number {
