@@ -21,9 +21,9 @@
     </script>
 </head>
 
-<body>
+<body data-theme="light">
 
-    <div class="container" style="background: #fefaf5;">
+    <div class="container" style="background: #eb9e420d;">
         <header>
             <div class="container">
                 <div class="row">
@@ -31,7 +31,7 @@
                         <img src="assets/images/logo.png" class="py-4 logo" alt="logo">
                         <div class="newsletter">
                             <span class="lines"></span>
-                            <img src="assets/images/newsletter.png" class="main-heading" alt="">
+                            <img src="assets/images/newsletter.png" class="main-heading newsletter-img" alt="">
                             <span class="lines"></span></div>
                         <h3>December 2024</h3>
                     </div>
@@ -961,6 +961,27 @@
         </div>
     </div>
     <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script>
+        // Example toggle functions
+        function toggleTheme() {
+            const body = document.body;
+            const currentTheme = body.getAttribute('data-theme');
+
+            // Toggle between light and dark themes
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            body.setAttribute('data-theme', newTheme);
+
+            // Optionally store theme in local storage
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Automatically sets the theme based on saved preference
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('theme') || 'light'; // Default to light theme
+            document.body.setAttribute('data-theme', savedTheme);
+        });
+
+    </script>
 </body>
 
 </html>
