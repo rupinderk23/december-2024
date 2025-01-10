@@ -255,6 +255,11 @@ header{
                 padding-top: 1rem;
             }
         }
+        .mob-seperate-col-top{
+            @media (max-width: 767px) {
+                border-top: 2px solid $second-color;
+            }
+        }
         .gallery-item{
             @media (min-width: 768px) {
                 background: #e17b5c17;
@@ -865,4 +870,36 @@ footer{
 
 .year-img{
     max-width: 464px;
+}
+
+.title-block-main{
+    position: relative;
+    .title-block{
+        font-size: 1.94rem;
+        font-family: $gilroy-font;
+        text-transform: uppercase;
+        line-height: 1.2;
+        color: #000000;
+        position: absolute;
+        left: 50%;
+        top: 5px;
+        transform: translateX(-50%);
+        width: 100%;
+        @media (max-width: 768px) {
+            font-size: 4vw;
+        }
+        @media (max-width: 590px) {
+            font-size: 5.2vw;
+            text-align: center;
+        }
+        @media (max-width: 348px) {
+            font-size: 5.1vw;
+        }
+    }
+    .title-block2{
+        @extend .title-block;
+        top: unset;
+        bottom: 20px;
+        letter-spacing: 2px;
+    }
 }

@@ -304,6 +304,11 @@ header h3 {
     padding-top: 1rem;
   }
 }
+@media (max-width: 767px) {
+  .gallery-section .gallery-wrapper .mob-seperate-col-top {
+    border-top: 2px solid #f39454;
+  }
+}
 @media (min-width: 768px) {
   .gallery-section .gallery-wrapper .gallery-item {
     background: rgba(225, 123, 92, 0.0901960784);
@@ -972,4 +977,41 @@ footer .ftrmnu li span {
 
 .year-img {
   max-width: 464px;
+}
+
+.title-block-main {
+  position: relative;
+}
+.title-block-main .title-block, .title-block-main .title-block2 {
+  font-size: 1.94rem;
+  font-family: "gilroy", "serif";
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #000000;
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  transform: translateX(-50%);
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .title-block-main .title-block, .title-block-main .title-block2 {
+    font-size: 4vw;
+  }
+}
+@media (max-width: 590px) {
+  .title-block-main .title-block, .title-block-main .title-block2 {
+    font-size: 5.2vw;
+    text-align: center;
+  }
+}
+@media (max-width: 348px) {
+  .title-block-main .title-block, .title-block-main .title-block2 {
+    font-size: 5.1vw;
+  }
+}
+.title-block-main .title-block2 {
+  top: unset;
+  bottom: 20px;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=style.css.map */
