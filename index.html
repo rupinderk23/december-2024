@@ -23,7 +23,7 @@
 
 <body data-theme="light">
 
-    <div class="container" style="background: #eb9e420d;">
+    <div class="container" style="background: #FEFAF5;">
         <header>
             <div class="container">
                 <div class="row">
@@ -961,27 +961,7 @@
         </div>
     </div>
     <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
-    <script>
-        // Example toggle functions
-        function toggleTheme() {
-            const body = document.body;
-            const currentTheme = body.getAttribute('data-theme');
-
-            // Toggle between light and dark themes
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            body.setAttribute('data-theme', newTheme);
-
-            // Optionally store theme in local storage
-            localStorage.setItem('theme', newTheme);
-        }
-
-        // Automatically sets the theme based on saved preference
-        document.addEventListener('DOMContentLoaded', () => {
-            const savedTheme = localStorage.getItem('theme') || 'light'; // Default to light theme
-            document.body.setAttribute('data-theme', savedTheme);
-        });
-
-    </script>
+    
 </body>
 
 </html>

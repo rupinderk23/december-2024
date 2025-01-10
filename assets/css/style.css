@@ -972,12 +972,4 @@ footer .ftrmnu li span {
 
 .year-img {
   max-width: 464px;
-}
-
-[data-theme=dark] .newsletter-img {
-  content: url("../images/newsletter-wt.png");
-}
-
-[data-theme=light] .newsletter-img {
-  content: url("../images/newsletter.png");
 }/*# sourceMappingURL=style.css.map */
