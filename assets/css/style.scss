@@ -867,9 +867,9 @@ footer{
     max-width: 464px;
 }
 
-// [data-theme="dark"] .newsletter-img {
-//     content: url('assets/images/newsletter-wt.png');
-// }
-// [data-theme="light"] .newsletter-img {
-//     content: url('assets/images/newsletter.png');
-// }
+[data-theme="dark"] .newsletter-img {
+    content: url('../images/newsletter-wt.png');
+}
+[data-theme="light"] .newsletter-img {
+    content: url('../images/newsletter.png');
+}
