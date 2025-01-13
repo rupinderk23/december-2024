@@ -1005,7 +1005,13 @@ footer .ftrmnu li span {
 }
 
 .main-divider img {
-  max-width: 800px;
+  width: 100%;
+  height: 30px;
+}
+@media (max-width: 768px) {
+  .main-divider img {
+    height: 20px;
+  }
 }
 
 .year-img {
