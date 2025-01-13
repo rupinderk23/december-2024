@@ -212,6 +212,35 @@ header{
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+    overflow-x: clip;
+    &::before{
+        position: absolute;
+        content: url('../images/elements/left1.png');
+        left: -10px;
+        top: -80px;
+        z-index: 1;
+        display: none;
+        @media (max-width: 767px) {
+            left: -14px;
+            top: 10px;
+            display: inline;
+        }
+    }
+    &::after{
+        position: absolute;
+        content: url('../images/elements/left1.png');
+        right: -10px;
+        top: -80px;
+        transform: rotate(180deg);
+        z-index: 1;
+        display: none;
+        @media (max-width: 767px) {
+            right: -14px;
+            top: 10px;
+            display: inline;
+        }
+    }
     img {
         @media(max-width: 767px){
             width: 140px !important;
